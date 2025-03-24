@@ -1,0 +1,57 @@
+body {
+    background-color: #f8e6f1; /* Soft pink background */
+    color: #4b4b4b; /* Dark gray text for good readability */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ff66b2; /* Pinkish navigation bar */
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white; /* White text for links in the nav */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Gold on hover for a little pop */
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff66b2; /* Pinkish color for the header */
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    color: #4b4b4b; /* Dark gray text */
+}
+
+.container a {
+    color: #ff66b2; /* Pinkish color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
